@@ -5,6 +5,7 @@ import (
   "censorship"
   "runtime/pprof"
   "log"
+  "fmt"
   "os"
 )
 
@@ -20,7 +21,9 @@ func main() {
   flag.Parse()
   args := flag.Args()
 
-  for i:=0; i<100000; i++ {
+  for i:=0; i<10000; i++ {
     censorship.Censorship(args[0])
   }
+  fmt.Println(censorship.Censorship(args[0]))
+
 }
