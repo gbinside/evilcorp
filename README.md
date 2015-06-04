@@ -12,6 +12,12 @@ to get
 
     what a XXXX XXXXXX
 
+## Tests
+
+Run
+
+    test.bat
+
 ## Build
 
 Run
